@@ -50,7 +50,6 @@ function App() {
   };
   return (
     <div className="app_container">
-      <h1>Enter your desired Vessel IMO</h1>
       <nav className="navbar">
         <TextField
           variant="standard"
