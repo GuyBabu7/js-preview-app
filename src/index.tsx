@@ -5,7 +5,7 @@ import App from "./App";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: process.env.REACT_APP_URI,
+  uri: "/",
   headers: {
     Authorization: `Bearer ${process.env.REACT_APP_TOKEN}`,
   },
